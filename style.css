@@ -1,0 +1,32 @@
+:root {
+  --primary-color : red;
+  --secondary-color: blue;
+  --type-letters : "";
+  --font--letters: "";
+
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+#container {
+  border: 2px solid white;
+  width: auto;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+
+}
+
+section {
+  border: 2px solid red;
+  width: 60%;
+}
+
+aside {
+  border: 2px solid blue;
+  width: 40%;
+}
